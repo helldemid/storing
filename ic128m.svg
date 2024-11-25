@@ -158,7 +158,7 @@
       <circle class="cg1 sk2 sc2" cx="48" cy="48" r="35"/>
       <path fill="#b57d0d" d="m61 68-14-7-13 7 2-15-11-10 16-2 6-13 7 13 16 2-11 10 2 15Z"/>
     </g>
-    <use xlink:href="#lOut" id="Inbox" class="c3" transform="translate(0 2186)"/>
+    <use xlink:href="#lOut" id="Inbox" class="c3" transform="translate(0 2176)"/>
     <g id="Mod">
       <use xlink:href="#shield" class="cg1 sk4 sc1"/>
       <text transform="translate(64 2368)" style="font-size:88px">M</text>
