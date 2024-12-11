@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 64 64">
+	<style>
+		.str1 {stroke:black;stroke-width:4;}
+		.fil0 {fill:none;}
+		.fil1 {fill:black;}
+	</style>
+	<!-- Corners -->
+	<polyline id="corner" class="fil0 str1" points="4,20 4,4 20,4"/>
+	<use href="#corner" transform="translate(0 64) scale(1,-1)"/>
+	<use href="#corner" transform="translate(64 0) scale(-1,1)"/>
+	<use href="#corner" transform="translate(64 64) scale(-1,-1)"/>
+	<!-- Rectangles -->
+	<rect id="rect" class="fil0 str1" x="14" y="14" width="12" height="12"/>
+	<use href="#rect" transform="translate(24 0)"/>
+	<use href="#rect" transform="translate(0 24)"/>
+	<!-- The last rectangle -->
+	<rect class="fil1 str1" x="38" y="38" width="12" height="12"/>
+</svg>
